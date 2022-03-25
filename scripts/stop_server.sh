@@ -6,4 +6,5 @@ if [ $pid == 0 ]; then
 else
    echo "Application is running"
    sudo pm2 stop conduit/ecosystem.config.js
+fi
 
