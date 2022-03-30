@@ -21,7 +21,7 @@ phases:
              - echo "REACT_APP_PORT=$PORT" >> .env
          #   - sed -i 's/your_app_port_here/'$PORT'/' ecosystem.config.js
          #   - sed -i "s|your_mongodb_uri_here|$MONGODB_DEV_URI|" ecosystem.config.js
-            - npm i
+             - npm i
 
     # Nothing to build
     build:
